@@ -10,9 +10,6 @@ adicionarEstudante initialDataBase = do
     print baseDadosAtualizada
     return baseDadosAtualizada
 
---imprimirDB :: IO()
---imprimirDB = print initialDataBase
-
 menu:: [Student] -> IO()
 menu database = do
     putStrLn "SEJA BEM-VINDO(A)!!!!"
