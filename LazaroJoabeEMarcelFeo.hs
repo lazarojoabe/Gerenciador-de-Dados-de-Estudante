@@ -25,7 +25,12 @@ menu database = do
             do
                 novaDataBase <- adicionarEstudante database
                 menu novaDataBase
-
+        "2" ->
+            --a desenvolver funcionalidade para recuperar estudante por ID
+                menu database
+        "3" ->
+            --a desenvolver funcionalidade para atualizar informações do estudante
+                menu database
         "4" -> putStrLn "Saindo..."
 
 
